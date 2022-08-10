@@ -14,6 +14,12 @@ variable "prefix" {
   description = "Alarm Name Prefix"
 }
 
+variable "demo" {
+  type        = string
+  default     = ""
+  description = "Alarm Name Prefix"
+}
+
 variable "response_time_threshold" {
   type        = string
   default     = "50"
